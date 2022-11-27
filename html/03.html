@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03</title>
+    <style>
+        li {
+            list-style: none;
+        }
+        a { 
+            text-decoration: none; 
+            color: black;
+            font-size: large;
+            margin-bottom: 30px;
+            display: block;
+        } 
+        ul {
+            margin: 0;
+            padding: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        a:focus,
+        a:hover {
+            color: rgb(158, 29, 29);
+        }
+        .gallery {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(242, 233, 233, 0.293);
+            border: 1px solid rgba(243, 236, 236, 0.505);
+            gap: 10px;
+        }
+        .imagener:last-child {
+            order: -1;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html">На головну</a>
+    
+
+    <ul class="gallery"></ul>
+
+
+    <script src="../js/03.js" type="module"></script>
+</body>
+</html>
